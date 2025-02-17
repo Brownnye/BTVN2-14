@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="./ảnh/web.png" alt="web" />
+    </header>
+    <nav>
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                style="width: 228px; height: 40px"
+                src="./ảnh/logo.webp"
+                alt="logo"
+            /></a>
+          </li>
+          <li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Bạn tìm gì..." />
+          </li>
+          <li>
+            <a href="#"
+              ><button>
+                <i class="fa-solid fa-user"></i><span>Đăng Nhập</span>
+              </button></a
+            >
+          </li>
+          <li>
+            <button>
+              <a href="#"
+                ><i class="fa-solid fa-cart-shopping"></i><span>Giỏ hàng</span>
+              </a>
+            </button>
+          </li>
+          <li id="address-form">
+            <a href="#"
+              ><i class="fa-solid fa-location-dot"></i><span>Hồ Chí minh</span
+              ><i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </li>
+          <div class="address-form">
+            <div class="address-form-content">
+              <h2>
+                Chọn địa điểm nhận hàng
+                <span id="close"><i class="fa-solid fa-xmark"></i></span>
+              </h2>
+              <form action="">
+                <p>Địa chỉ đang chọn: <b>Hồ Chí Minh</b></p>
+                <input
+                  type="text"
+                  placeholder="Tìm nhanh tỉnh thành, quận huyện, phường xã"
+                />
+                <div class="selection">
+                  <select name="">
+                    <option value="#">Tỉnh/TP</option>
+                    <option value="#">Hồ Chí Minh</option>
+                  </select>
+                  <select name="">
+                    <option value="#">Quận/Huyện</option>
+                    <option value="#">Hồ Chí Minh</option>
+                  </select>
+                  <select name="">
+                    <option value="#">Phường/Xã</option>
+                    <option value="#">Hồ Chí Minh</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <section class="menu-bar">
+      <div class="container">
+        <div class="menu-bar-content">
+          <ul>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-mobile-screen-button"></i>Điện thoại</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-laptop"></i>Laptop</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-headphones-simple"></i>Phụ kiện<i
+                  style="margin-left: 4px"
+                  class="fa-solid fa-caret-down"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-stopwatch"></i>SmartWatch</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-swatchbook"></i>Đồng hồ</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-tablet-screen-button"></i>Tablet</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-pager"></i>Máy cũ, Thu cũ<i
+                  style="margin-left: 4px"
+                  class="fa-solid fa-caret-down"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-desktop"></i>PC, Máy in<i
+                  class="fa-solid fa-caret-down"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-sim-card"></i>Sim, Thẻ cào<i
+                  style="margin-left: 4px"
+                  class="fa-solid fa-caret-down"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-servicestack"></i>Dịch vụ tiện ích<i
+                  style="margin-left: 4px"
+                  class="fa-solid fa-caret-down"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------slider -->
+    <section class="slider">
+      <div class="container">
+        <div class="slider-content">
+          <div class="slider-content-left">
+            <div class="slider-content-left-top-container">
+              <div class="slider-content-left-top">
+                <a href="#"><img src="./ảnh/slide1.png" alt="" /></a>
+                <a href="#"><img src="./ảnh/slide2.png" alt="" /></a>
+                <a href="#"><img src="./ảnh/slide3.jpg" alt="" /></a>
+                <a href="#"><img src="./ảnh/slide4.png" alt="" /></a>
+                <a href="#"><img src="./ảnh/slide5.png" alt="" /></a>
+              </div>
+              <div class="slide-content-left-btn">
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+            <div class="slider-content-left-bottom">
+              <li class="active">tiêu đề 1</li>
+              <li>tiêu đề 2</li>
+              <li>tiêu đề 3</li>
+              <li>tiêu đề 4</li>
+              <li>tiêu đề 5</li>
+            </div>
+          </div>
+          <div class="slider-content-right">
+            <li>
+              <a href="#">
+                <img src="./ảnh/img1.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./ảnh/img2.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./ảnh/img3.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./ảnh/img4.png" alt="" />
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner one  -->
+    <section class="banner-one">
+      <div class="container">
+        <img src="" alt="" />
+      </div>
+    </section>
+    <!-- slider product -->
+    <section class="slider-product-one">
+      <div class="container">
+        <div class="slider-product-one-content">
+          <div class="slider-product-one-content-title">
+            <h2>Săn sale online mỗi ngày</h2>
+          </div>
+          <div class="slider-product-one-content-container">
+            <div class="slider-product-one-content-items-content">
+              <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                  <img src="./ảnh/banner1.jpg" alt="" />
+                  <div class="slider-product-one-content-item-text">
+                    <li>
+                      <img
+                        src="./ảnh/1.1.png"
+                        alt=""
+                        style="height: 30px; width: 30px"
+                      />
+                      <p>Trả trước 0đ</p>
+                    </li>
+                    <li>HP 15s fq5147 i7 1255U (7C133PA)</li>
+                    <li>Online giá rẻ</li>
+                    <li>15.490.000<sup>đ</sup> <span>-25%</span></li>
+                    <li>
+                      <a href="#">20.890.000<sup>đ</sup></a>
+                    </li>
+                    <li>Quà 490.000 <sup>đ</sup></li>
+                    <li>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-product-one-content-btn">
+              <i class="fa-solid fa-chevron-left-two"></i>
+              <i class="fa-solid fa-chevron-right-two"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product gallery -->
+    <section class="product-gallery-one">
+      <div class="container">
+        <div class="product-gallery-one-content">
+          <div class="product-gallery-one-content-tittle">
+            <h2>Gợi ý cho bạn</h2>
+            <ul>
+              <li>
+                <a href="#">Điện thoại</a>
+              </li>
+              <li>
+                <a href="#">Apple</a>
+              </li>
+              <li>
+                <a href="#">laptop</a>
+              </li>
+              <li>
+                <a href="#">Phụ kiện</a>
+              </li>
+            </ul>
+          </div>
+          <div class="product-gallery-one-content-product">
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/2.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trả trước 0đ</p>
+                </li>
+                <li>Xiaomi Redmi 14C 4GB/128GB</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">2.990.000<sup>đ</sup></a> <span>-9%</span>
+                </li>
+                <li>3.290.000<sup>đ</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/10.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>Xiaomi Redmi A3 3GB/64GB</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">2.090.000<sup>đ</sup></a> <span>-16%</span>
+                </li>
+                <li>2.490.000₫<sup>o</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/1.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>Xiaomi Redmi 13 6GB/128GB</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">3.690.000<sup>o</sup></a> <span>-13%</span>
+                </li>
+                <li>4.290.000<sup>đ</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/4.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>Xiaomi 14T 5G 12GB/256GB</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">11.490.000<sup>đ</sup></a> <span></span>
+                </li>
+                <li>12.990.000<sup>đ</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/5.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>OPPO A3x 4GB/64GB</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">11.490.000<sup>đ</sup></a> <span>-11%</span>
+                </li>
+                <li>12.990.000<sup>o</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/6.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>Samsung Galaxy M15 5G</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">3.690.000<sup>o</sup></a> <span>-21%</span>
+                </li>
+                <li>4.690.000<sup>o</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/7.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>OPPO A3 6GB/128GB</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">4.590.000<sup>đ</sup></a> <span>-8%</span>
+                </li>
+                <li>4.990.000<sup>đ</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/8.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>iPhone 16 Pro Max 256GB</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">32.890.000<sup>đ</sup></a> <span>-6%</span>
+                </li>
+                <li>34.990.000<sup>đ</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/9.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>vivo Y28 8GB/128GB</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">5.790.000<sup>o</sup></a> <span>-6%</span>
+                </li>
+                <li>6.200.000<sup>đ</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+              <img src="./ảnh/11.jpg" alt="" />
+              <div class="product-gallery-one-content-product-item-text">
+                <li>
+                  <img
+                    src="./ảnh/1.1.png"
+                    alt=""
+                    style="height: 30px; width: 30px"
+                  />
+                  <p>Trợ giá mùa dịch</p>
+                </li>
+                <li>Samsung Galaxy Z Fold6 5G</li>
+                <li>Online giá rẻ</li>
+                <li>
+                  <a href="">36.490.000<sup>o</sup></a> <span>-17%</span>
+                </li>
+                <li>43.990.000<sup>đ</sup></li>
+                <li>Quà 490.000 <sup>đ</sup></li>
+                <li>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
